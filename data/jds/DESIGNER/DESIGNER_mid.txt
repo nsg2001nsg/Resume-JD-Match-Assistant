@@ -1,0 +1,28 @@
+Job Title: Senior UX Designer / Product Designer
+Company: Thoughtworks Digital
+Location: Bangalore, India
+Experience Required: 4-8 years
+
+Role Overview:
+We are seeking a Senior Product Designer to lead UX design for complex digital products, drive design strategy, and collaborate closely with product and engineering teams to ship exceptional user experiences.
+
+Responsibilities:
+- Own end-to-end UX design process from research to delivery
+- Conduct user interviews, define personas, and create user journey maps
+- Design and prototype interactions for web and mobile applications
+- Establish and maintain design systems and component libraries
+- Collaborate with product managers on feature prioritization and requirements
+- Review and provide feedback on junior designers' work
+- Present design decisions and rationale to senior stakeholders
+
+Requirements:
+- Bachelor's or Master's in Design or Human-Computer Interaction
+- 4-8 years of product or UX design experience
+- Expert-level proficiency in Figma or Sketch
+- Strong portfolio demonstrating research-led, data-informed design
+- Deep knowledge of accessibility standards and responsive design
+- Excellent communication and stakeholder management skills
+
+Preferred:
+- Experience with design for fintech, healthtech, or enterprise software
+- Familiarity with design tokens, headless CMS, or design ops

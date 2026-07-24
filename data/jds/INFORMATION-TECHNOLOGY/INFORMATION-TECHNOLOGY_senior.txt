@@ -1,0 +1,28 @@
+Job Title: Engineering Manager / Director of Engineering
+Company: HyperScale Tech India
+Location: Mumbai, India
+Experience Required: 12+ years
+
+Role Overview:
+We are seeking a Director of Engineering to lead our product engineering organization, define technical strategy, and build a high-performing engineering culture at scale.
+
+Responsibilities:
+- Lead and manage multiple engineering teams across backend, frontend, and platform
+- Define technical architecture, engineering standards, and quality benchmarks
+- Drive the product engineering roadmap in partnership with CPO and CTO
+- Build engineering hiring pipelines and develop technical leadership
+- Oversee system reliability, security, and scalability at enterprise scale
+- Foster a culture of engineering excellence, innovation, and continuous learning
+- Partner with business leadership on technology strategy and investment
+
+Requirements:
+- B.Tech or M.Tech in Computer Science or related field
+- 12+ years of software engineering with at least 4 years in engineering management
+- Strong technical depth in distributed systems, cloud, and software architecture
+- Proven track record leading high-performing engineering organizations
+- Excellent people management, communication, and strategic thinking
+- Experience scaling engineering teams in fast-growth product environments
+
+Preferred:
+- Prior experience as VP Engineering or Engineering Director at a product company
+- Open source contributions or technical publications

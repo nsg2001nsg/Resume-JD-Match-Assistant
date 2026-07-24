@@ -1,0 +1,27 @@
+Job Title: Software Developer / Junior Backend Engineer
+Company: CodeStream Technologies
+Location: Hyderabad, India
+Experience Required: 0-2 years
+
+Role Overview:
+We are hiring a Junior Software Developer to join our backend engineering team and contribute to building scalable APIs, microservices, and data-driven applications.
+
+Responsibilities:
+- Develop and maintain RESTful APIs and backend services
+- Write clean, testable code following best practices and coding standards
+- Participate in code reviews and contribute to technical documentation
+- Debug and resolve application issues reported in production
+- Collaborate with frontend developers and product managers on feature delivery
+- Learn and work with cloud platforms and CI/CD pipelines
+
+Requirements:
+- B.E. or B.Tech in Computer Science, Information Technology, or related field
+- 0-2 years of experience in software development
+- Proficiency in Python, Java, or Node.js
+- Basic knowledge of REST APIs, databases (SQL/NoSQL), and version control (Git)
+- Familiarity with Linux environments and command-line tools
+- Strong problem-solving and learning agility
+
+Preferred:
+- Knowledge of Django, Spring Boot, or Express.js frameworks
+- Exposure to Docker, AWS, or any cloud platform

@@ -1,0 +1,10 @@
+We are looking for a Senior Python Backend Developer with 5+ years of 
+experience building scalable server-side applications. The ideal candidate 
+must have strong proficiency in Python, Django, and Flask frameworks. 
+Experience with PostgreSQL, MySQL, and REST API design is required. 
+Knowledge of AWS services including S3, EC2, and Lambda is essential. 
+Familiarity with microservices architecture, Celery for async task queues, 
+and Linux shell scripting is expected. The candidate should have experience 
+with Git, Agile/Scrum methodology, and writing unit tests. Strong 
+problem-solving skills and ability to work in cross-functional teams required.
+Experience with Docker and CI/CD pipelines is a plus.

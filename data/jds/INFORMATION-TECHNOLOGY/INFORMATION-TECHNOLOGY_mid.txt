@@ -1,0 +1,29 @@
+Job Title: Senior Software Engineer / Full Stack Developer
+Company: InnovateTech Solutions
+Location: Bangalore, India
+Experience Required: 4-7 years
+
+Role Overview:
+We are looking for a Senior Software Engineer to design and build complex software systems, mentor junior developers, and contribute to architectural decisions across our product engineering team.
+
+Responsibilities:
+- Design and implement scalable backend systems and APIs
+- Lead technical design reviews and contribute to architecture decisions
+- Write high-quality code and enforce best practices through code reviews
+- Drive performance optimization, security, and reliability improvements
+- Collaborate with product, design, and QA teams on feature delivery
+- Mentor and guide junior engineers
+- Contribute to DevOps practices including CI/CD and infrastructure as code
+
+Requirements:
+- B.E. or M.Tech in Computer Science or related field
+- 4-7 years of software development experience
+- Strong proficiency in Python, Java, Go, or Node.js
+- Deep knowledge of RESTful APIs, microservices, and cloud architecture (AWS/GCP)
+- Experience with SQL and NoSQL databases, caching, and message queues
+- Familiarity with Docker, Kubernetes, and CI/CD tools
+- Excellent problem-solving and communication skills
+
+Preferred:
+- Experience with distributed systems or data engineering
+- AWS or GCP cloud certification

@@ -1,0 +1,173 @@
+{
+  "dataset": {
+    "source": "silver_dataset.csv",
+    "rows": 7480,
+    "label_counts": {
+      "0": 6317,
+      "1": 1163
+    },
+    "unique_resumes": 2399,
+    "unique_jds": 72,
+    "feature_columns": [
+      "tfidf_similarity",
+      "keyword_overlap_ratio",
+      "education_level_score",
+      "experience_gap"
+    ],
+    "feature_summary": {
+      "tfidf_similarity": {
+        "count": 7480.0,
+        "mean": 0.0844,
+        "std": 0.0822,
+        "min": 0.0034,
+        "25%": 0.0382,
+        "50%": 0.0524,
+        "75%": 0.0782,
+        "max": 0.4708
+      },
+      "keyword_overlap_ratio": {
+        "count": 7480.0,
+        "mean": 0.14,
+        "std": 0.1353,
+        "min": 0.0,
+        "25%": 0.05,
+        "50%": 0.1,
+        "75%": 0.2,
+        "max": 0.75
+      },
+      "education_level_score": {
+        "count": 7480.0,
+        "mean": -0.5045,
+        "std": 1.0526,
+        "min": -4.0,
+        "25%": -1.0,
+        "50%": -1.0,
+        "75%": 0.0,
+        "max": 3.0
+      },
+      "experience_gap": {
+        "count": 7480.0,
+        "mean": 11.1247,
+        "std": 10.8358,
+        "min": -8.0,
+        "25%": 3.0,
+        "50%": 11.0,
+        "75%": 16.0,
+        "max": 131.0
+      }
+    }
+  },
+  "baseline": {
+    "dummy_most_frequent_accuracy": 0.8442513368983957
+  },
+  "row_split": {
+    "accuracy": 0.9953208556149733,
+    "roc_auc": 0.999789315581472,
+    "confusion_matrix": [
+      [
+        1257,
+        6
+      ],
+      [
+        1,
+        232
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.9992050874403816,
+        "recall": 0.995249406175772,
+        "f1-score": 0.9972233240777469,
+        "support": 1263.0
+      },
+      "1": {
+        "precision": 0.9747899159663865,
+        "recall": 0.9957081545064378,
+        "f1-score": 0.9851380042462845,
+        "support": 233.0
+      },
+      "accuracy": 0.9953208556149733,
+      "macro avg": {
+        "precision": 0.9869975017033841,
+        "recall": 0.9954787803411049,
+        "f1-score": 0.9911806641620158,
+        "support": 1496.0
+      },
+      "weighted avg": {
+        "precision": 0.9954024571239104,
+        "recall": 0.9953208556149733,
+        "f1-score": 0.9953410516708414,
+        "support": 1496.0
+      }
+    }
+  },
+  "group_split": {
+    "accuracy": 0.9925625422582827,
+    "roc_auc": 0.9999359529819537,
+    "confusion_matrix": [
+      [
+        1259,
+        11
+      ],
+      [
+        0,
+        209
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 1.0,
+        "recall": 0.9913385826771653,
+        "f1-score": 0.9956504547251879,
+        "support": 1270.0
+      },
+      "1": {
+        "precision": 0.95,
+        "recall": 1.0,
+        "f1-score": 0.9743589743589743,
+        "support": 209.0
+      },
+      "accuracy": 0.9925625422582827,
+      "macro avg": {
+        "precision": 0.975,
+        "recall": 0.9956692913385827,
+        "f1-score": 0.985004714542081,
+        "support": 1479.0
+      },
+      "weighted avg": {
+        "precision": 0.9929344151453685,
+        "recall": 0.9925625422582827,
+        "f1-score": 0.9926417195010239,
+        "support": 1479.0
+      }
+    }
+  },
+  "model": {
+    "type": "LogisticRegression",
+    "class_weight": "balanced",
+    "coefficients": {
+      "tfidf_similarity": 6.577144204485988,
+      "keyword_overlap_ratio": 1.1187658939204308,
+      "education_level_score": -0.13501260205579937,
+      "experience_gap": 0.43097352643304726
+    },
+    "intercept": -5.423439328838503,
+    "scaler_mean": {
+      "tfidf_similarity": 0.0840331550802139,
+      "keyword_overlap_ratio": 0.13873663101604278,
+      "education_level_score": -0.5071858288770054,
+      "experience_gap": 11.096256684491978
+    },
+    "scaler_scale": {
+      "tfidf_similarity": 0.08189506734731263,
+      "keyword_overlap_ratio": 0.13406991011112857,
+      "education_level_score": 1.0547900519548534,
+      "experience_gap": 10.843306636898802
+    }
+  },
+  "limitations": [
+    "Training labels are silver labels generated from matching heuristics, not real hiring decisions.",
+    "Metrics measure agreement with silver labels and should not be presented as real-world hiring accuracy.",
+    "External labeled resume/JD pairs should be reported separately because their label source differs."
+  ]
+}
