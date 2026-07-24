@@ -229,8 +229,14 @@ document.addEventListener('DOMContentLoaded', () => {
             else if (eduScore < 0) eduText = '⚠ Below Job Requirement';
         }
         
-        let degreeFound = data.extracted_features.extracted_education_level || "unknown";
-        degreeFound = degreeFound.charAt(0).toUpperCase() + degreeFound.slice(1);
+        let degreeLevel = data.extracted_features.extracted_education_level;
+        let degreeFound = "Unknown";
+        if (degreeLevel === 1) degreeFound = "High School / Secondary";
+        else if (degreeLevel === 2) degreeFound = "Diploma / Associate";
+        else if (degreeLevel === 3) degreeFound = "Bachelor's";
+        else if (degreeLevel === 4) degreeFound = "Master's / Postgraduate";
+        else if (degreeLevel === 5) degreeFound = "Doctorate / Ph.D";
+        
         if (degreeFound !== 'Unknown') degreeFound += " degree detected.";
         else degreeFound = "Degree level not clearly detected.";
         
