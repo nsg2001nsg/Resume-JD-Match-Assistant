@@ -282,6 +282,8 @@ def score():
         
         def get_note_priority(note):
             msg = note["message"].lower()
+            if "core-skill deficit" in msg and "extremely sparse" in msg:
+                return 5.0
             if "experience requirement mismatch" in msg:
                 return 4.5
             if "experience gap" in msg:
